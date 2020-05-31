@@ -51,6 +51,8 @@ function processResponse(response) {
   // If an intent was detected, log it out to the console.
   if (response.output.intents.length > 0) {
     console.log("Detected intent: #" + response.output.intents[0].intent);
+  } else if (response.output.entities.length > 0) {
+    console.log("Detected entity: @" + response.output.entities[0].entity);
   }
 
   // Display the output from assistant, if any. Supports only a single
