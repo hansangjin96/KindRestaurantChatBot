@@ -1,0 +1,2335 @@
+{
+  "intents": [
+    {
+      "intent": "안녕",
+      "examples": [
+        {
+          "text": "헬로"
+        },
+        {
+          "text": "반갑"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "안녕하세요"
+        },
+        {
+          "text": "안녕"
+        },
+        {
+          "text": "방가"
+        },
+        {
+          "text": "ㅎㅇ"
+        },
+        {
+          "text": "하이"
+        },
+        {
+          "text": "하이루"
+        },
+        {
+          "text": "방가방가"
+        },
+        {
+          "text": "안녕하세여"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "취소하기",
+      "examples": [
+        {
+          "text": "cjdma"
+        },
+        {
+          "text": "처음으로"
+        },
+        {
+          "text": "다시시작"
+        },
+        {
+          "text": "처음"
+        },
+        {
+          "text": "처음부터"
+        },
+        {
+          "text": "홈으로"
+        },
+        {
+          "text": "취소할래"
+        },
+        {
+          "text": "cnlth"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "가게추천",
+      "examples": [
+        {
+          "text": "가게 알려줘"
+        },
+        {
+          "text": "cncjs"
+        },
+        {
+          "text": "춫"
+        },
+        {
+          "text": "가게추천"
+        },
+        {
+          "text": "추천으로바꿀래"
+        },
+        {
+          "text": "추천으로"
+        },
+        {
+          "text": "가게췇ㄴ"
+        },
+        {
+          "text": "걍 추천할래"
+        },
+        {
+          "text": "착한가게 추천"
+        },
+        {
+          "text": "추천해줘"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "사용자위치",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "착한가격업소",
+      "examples": [
+        {
+          "text": "착한업소가 뭐야?"
+        },
+        {
+          "text": "너 무슨 챗봇이야?"
+        },
+        {
+          "text": "착한가격업소가 뭐야?"
+        },
+        {
+          "text": "너 뭐하는 챗봇이야?"
+        },
+        {
+          "text": "ckrgksrkrur"
+        },
+        {
+          "text": "착한가격업소가 뭐지?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "가게검색",
+      "examples": [
+        {
+          "text": "착한가게 검색"
+        },
+        {
+          "text": "rjator"
+        },
+        {
+          "text": "그냥검색"
+        },
+        {
+          "text": "검새"
+        },
+        {
+          "text": "가게 검색"
+        },
+        {
+          "text": "검색"
+        },
+        {
+          "text": "검색할래"
+        },
+        {
+          "text": "검색으로바꿀래"
+        },
+        {
+          "text": "검색으로할래"
+        },
+        {
+          "text": "검ㅁ색"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "양식",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "양식",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "위치엔티티",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "강원",
+          "synonyms": [
+            "강원도",
+            "강원"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "충남",
+          "synonyms": [
+            "충청남도"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "충북",
+          "synonyms": [
+            "충청북도"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "제주",
+          "synonyms": [
+            "제주시"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "전북",
+          "synonyms": [
+            "전라북도"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "전남",
+          "synonyms": [
+            "전라남도"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "인천",
+          "synonyms": [
+            "인천시"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "서울",
+          "synonyms": [
+            "서울시",
+            "Seoul",
+            "서ㅓ울"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "대전",
+          "synonyms": [
+            "대전시"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "부산",
+          "synonyms": [
+            "부산시",
+            "qntks",
+            "busan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "울산",
+          "synonyms": [
+            "울산시"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "세종",
+          "synonyms": [
+            "세종시"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "광주",
+          "synonyms": [
+            "광주",
+            "rhkdwn",
+            "광쥬"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "경기",
+          "synonyms": [
+            "경기도"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "경남",
+          "synonyms": [
+            "경상남도"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "경북",
+          "synonyms": [
+            "경상북도"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "중식",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "중식",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "추천엔티티",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "추천해줘",
+          "synonyms": [
+            "추천",
+            "추천원해",
+            "ㅊㅊ",
+            "추천?",
+            "춫천",
+            "추천할래",
+            "가게추천",
+            "춫"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "세부위치엔티티",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "서귀포시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "김해시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "밀양시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "거제시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "양산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "의령군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "함안군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "창녕군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "남해군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "하동군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "산청군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "함양군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "거창군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "합천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "제주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강남구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강동구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강북구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강서구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "관악구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "광진구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "구로구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "금천구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "노원구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "도봉구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "동대문구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "동작구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "마포구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "서대문구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "서초구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "성동구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "성북구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "송파구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "양천구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영등포구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "용산구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "은평구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "종로구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "중구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "중랑구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "서구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "동구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영도구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "부산진구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "동래구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "남구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "북구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "해운대",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "사하구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "금정구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "연제구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "수영구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "사상구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "기장군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "수성구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "달서구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "달성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "미추홀구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "연수구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "남동구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "부평구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "계양구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강화군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "옹진군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "광산구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "유성구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "대덕구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "울주군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "세종시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "수원시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "고양시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "용인시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "성남시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "부천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "안산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "화성시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "남양주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "안양시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "평택시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "의정부시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "파주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "시흥시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "김포시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "광명시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "광주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "군포시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "이천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "오산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "하남시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "양주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "구리시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "안성시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "포천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "의왕시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "여주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "양평군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "동두천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "과천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "가평군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "연천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "춘천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "원주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강릉시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "동해시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "태백시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "속초시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "삼척시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "홍천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "횡성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영월군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "평창군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "정선군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "철원군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "화천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "양구군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "인제군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "고성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "양양군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "청주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "충주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "제천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "보은군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "옥천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영동군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "증평군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "진천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "괴산군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "음성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "단양군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "천안시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "공주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "보령시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "아산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "서산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "논산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "계룡시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "당진시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "금산군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "부여군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "서천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "청양군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "홍성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "예산군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "태안군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "전주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "군산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "익산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "정읍시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "남원시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "김제시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "완주군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "진안군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "무주군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "장수군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "임실군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "순창군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "고창군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "부안군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "목포시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "여수시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "순천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "나주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "광양시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "담양군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "곡성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "구례군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "고흥군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "보성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "화순군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "장흥군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "강진군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "해남군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영암군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "무안군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "함평군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영광군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "장성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "완도군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "진도군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "신안군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "포항시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "경주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "김천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "안동시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "구미시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영천시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "상주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "문경시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "경산시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "군위군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "의성군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "청송군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영양군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "영덕군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "청도군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "고령군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "성주군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "칠곡군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "예천군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "봉화군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "울진군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "울릉군",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "창원시 의창구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "창원시 성산구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "창원시 마산합포구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "창원시 마산회원구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "창원시 진해구",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "진주시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "통영시",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "사천시",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "지정기준",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "지정기준",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "외식업",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "외식업으로",
+          "synonyms": [
+            "외식업원해",
+            "외식업",
+            "외식",
+            "음식점"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "검색엔티티",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "검색할래",
+          "synonyms": [
+            "장소검색",
+            "검색",
+            "검새",
+            "서치",
+            "검색이요",
+            "ㄱ검새",
+            "ㄱ검색"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "취소",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "취소",
+          "synonyms": [
+            "취소할래",
+            "홈으로",
+            "취소하기",
+            "처음부터",
+            "췿",
+            "첨",
+            "cnlth",
+            "취서",
+            "츠;사"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "세탁소",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "세탁소",
+          "synonyms": [
+            "세ㅔ탁소",
+            "세탁소원해",
+            "세탁소추천좀",
+            "세탁소로",
+            "세ㅔ탁"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "지정현황",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "지정현황",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "미용실",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "미용실",
+          "synonyms": [
+            "묭실",
+            "미용실이야",
+            "미용ㅇ실",
+            "미용"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "가게명",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "전주콩나물",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "정희네백반",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "카페디저트",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "디저트(카페)",
+          "synonyms": [
+            "커피",
+            "디저트",
+            "카페"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "서비스업",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "서비스업",
+          "synonyms": [
+            "서비스",
+            "서비ㅣ스업"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "지정절차",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "지정절차",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "한식",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "한식",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "일식",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "일식",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "지정절차",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "* 착한가격업소의 지정은 \n1. 영업자가 직접 신청을 하거나\n2. 읍면동장/소비자단체 등의 추천을 받아야 합니다. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "* 직접 신청 및 추천을 받은 업소는 시장/군수/구청장의 현지실사/평가 및 심사를 거친 후 시도 및 안전행정부의 협의 및 검토를 통해 지정이 됩니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "* 무엇을 도와드릴까요?",
+            "options": [
+              {
+                "label": "처음으로",
+                "value": {
+                  "input": {
+                    "text": "취소"
+                  }
+                }
+              },
+              {
+                "label": "이전으로",
+                "value": {
+                  "input": {
+                    "text": "착한가격업소"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1590569932056",
+      "conditions": "@지정절차",
+      "dialog_node": "node_10_1590571565264",
+      "previous_sibling": "node_9_1590571558279"
+    },
+    {
+      "type": "standard",
+      "title": "지정기준",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "* 가격기준\n1. 지역의 평균가격 이하의 품목이 있을 것\n2. 가격안정을 위해 1년 이내 가격을 인하한 품목이 있을 것\n3. 가격안정을 위해 가격을 동결하고 있는 품목이 있을 것\n4. 지역의 평균가격 이하의 품목이 여러 개가 있을 것"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "* 위생청결기준\n1. 바닥 내수처리 및 수세, 배수시설의 청결도 \n2. 청결한 위생복/위생장갑/위생모/위생마스크 등 착용도\n3. 식탁 의자 정리도, 행주 등 용도별 사용\n4. 소독용품 비치 또는 손씻기 시설 설치, 정수기 위생관리 수준 \n5. 수세 소독 및 환기 등 관리 정도(세척제, 에어타월 또는 위생종이 구비 등)\n6. 창고/벽/천장/환기/방충시설 등 청결관리 정도"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "* 기타\n1. 서비스기준(종사자의 친절도) 및 공공성기준(옥외가격 표시제 및 - 원산지 표시제 등 중앙 및 지방자치단체 시책 이행 여부)을 충족 \n2. 위생모범업소의 경우 가격이 지역평균가격 이하일 경우 우선 지정될 수 있도록 하고 있다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "* 무엇을 도와드릴까요?",
+            "options": [
+              {
+                "label": "처음으로",
+                "value": {
+                  "input": {
+                    "text": "취소"
+                  }
+                }
+              },
+              {
+                "label": "이전으로",
+                "value": {
+                  "input": {
+                    "text": "착한가격업소"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1590569932056",
+      "conditions": "@지정기준",
+      "dialog_node": "node_9_1590571558279",
+      "previous_sibling": "node_6_1590570657408"
+    },
+    {
+      "type": "standard",
+      "title": "지정현황",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "* 현재 6,536개의 착한가격업소가 지정되어 있습니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "* 착한가격업소는 가격기준, 위생기준, 서비스 기준 등에 적합한 개인서비스업종을 대상으로 지자체에서 지정하는 업소입니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "* 무엇을 도와드릴까요?",
+            "options": [
+              {
+                "label": "첫 화면으로",
+                "value": {
+                  "input": {
+                    "text": "취소"
+                  }
+                }
+              },
+              {
+                "label": "이전으로",
+                "value": {
+                  "input": {
+                    "text": "착한가격업소"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1590569932056",
+      "conditions": "@지정현황",
+      "dialog_node": "node_6_1590570657408"
+    },
+    {
+      "type": "standard",
+      "title": "가게입력받음",
+      "parent": "node_1_1588579408457",
+      "conditions": "@가게이름",
+      "dialog_node": "node_6_1588672762913"
+    },
+    {
+      "type": "standard",
+      "title": "(임시)가게출력",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589451532270",
+      "conditions": "",
+      "dialog_node": "node_10_1589453934860"
+    },
+    {
+      "type": "standard",
+      "title": "검색",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "가게명을 입력해주세요."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1588579716521",
+      "conditions": "@검색엔티티",
+      "dialog_node": "node_1_1588579408457",
+      "previous_sibling": "node_8_1588579846022"
+    },
+    {
+      "type": "standard",
+      "title": "추천",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "가게를 추천해드리겠습니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1588579716521",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1589453446959"
+      },
+      "conditions": "@추천엔티티",
+      "dialog_node": "node_8_1588579846022"
+    },
+    {
+      "type": "standard",
+      "title": "외식업vs서비스업문의",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "위치 : @위치엔티티.value @세부위치엔티티.value"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "외식업을 원하시면 외식업, 서비스업을 원하시면 서비스업을 입력해주세요.",
+            "options": [
+              {
+                "label": "외식업(음식점)",
+                "value": {
+                  "input": {
+                    "text": "외식업"
+                  }
+                }
+              },
+              {
+                "label": "서비스업(미용, 세탁, 숙박)",
+                "value": {
+                  "input": {
+                    "text": "서비스업"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1588582827657",
+      "conditions": "",
+      "dialog_node": "node_1_1589449886014"
+    },
+    {
+      "type": "standard",
+      "title": "위치묻기",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "가게의 원하는 위치는 어디신가요? (시/구)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1588579846022",
+      "context": {
+        "location": ""
+      },
+      "conditions": "",
+      "dialog_node": "node_1_1589453446959"
+    },
+    {
+      "type": "frame",
+      "title": "위치받기",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1589453446959",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1589449886014"
+      },
+      "conditions": "@위치엔티티 || @세부위치엔티티",
+      "dialog_node": "node_8_1588582827657"
+    },
+    {
+      "type": "standard",
+      "title": "음식종류",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "{@entity]을 선택하셨군요!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1588582922492",
+      "conditions": "@양식 || @일식 || @중식 || @한식 || @카페디저트",
+      "dialog_node": "node_10_1589451532270"
+    },
+    {
+      "type": "standard",
+      "title": "(임시)서비스출력",
+      "parent": "node_4_1589452694136",
+      "dialog_node": "node_7_1589699912438"
+    },
+    {
+      "type": "standard",
+      "title": "서비스업",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "어떤 서비스업 가게를 찾으시나요?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "서비스업 종류",
+            "options": [
+              {
+                "label": "미용실",
+                "value": {
+                  "input": {
+                    "text": "미용실"
+                  }
+                }
+              },
+              {
+                "label": "세탁소",
+                "value": {
+                  "input": {
+                    "text": "세탁소"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1589449886014",
+      "conditions": "@서비스업",
+      "dialog_node": "node_1_1588671398524",
+      "previous_sibling": "node_9_1588582922492"
+    },
+    {
+      "type": "standard",
+      "title": "외식업",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "찾으시는 음식 종류를 입력해주세요."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "한식 양식 중식 일식 디저트 중에 골라주세요",
+            "options": [
+              {
+                "label": "한식",
+                "value": {
+                  "input": {
+                    "text": "한식"
+                  }
+                }
+              },
+              {
+                "label": "양식",
+                "value": {
+                  "input": {
+                    "text": "양식"
+                  }
+                }
+              },
+              {
+                "label": "중식",
+                "value": {
+                  "input": {
+                    "text": "중식"
+                  }
+                }
+              },
+              {
+                "label": "일식",
+                "value": {
+                  "input": {
+                    "text": "일식"
+                  }
+                }
+              },
+              {
+                "label": "디저트(카페)",
+                "value": {
+                  "input": {
+                    "text": "디저트"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1589449886014",
+      "conditions": "@외식업",
+      "dialog_node": "node_9_1588582922492"
+    },
+    {
+      "type": "standard",
+      "title": "서비스종류",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "{@entity}을 선택하셨습니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588671398524",
+      "conditions": "@미용실 || @세탁소",
+      "dialog_node": "node_4_1589452694136"
+    },
+    {
+      "type": "standard",
+      "title": "anything_else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "무슨 뜻인지 모르겠어요. 다시 말씀해주세요."
+              },
+              {
+                "text": "다시 말씀해주시겠어요? 이해가 잘 안 되네요."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1588579716521"
+      },
+      "conditions": "intent[0].confidence < 0.6",
+      "dialog_node": "기타",
+      "previous_sibling": "node_1_1590569932056",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "처음부터추천입력시",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1588579846022"
+      },
+      "conditions": "#가게추천",
+      "dialog_node": "node_10_1588672551524",
+      "previous_sibling": "node_5_1588579716521"
+    },
+    {
+      "type": "standard",
+      "title": "처음부터검색입력시",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "검색하시겠어요?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1588579408457"
+      },
+      "conditions": "#가게검색",
+      "dialog_node": "node_4_1588672505173",
+      "previous_sibling": "node_10_1588672551524"
+    },
+    {
+      "type": "standard",
+      "title": "안녕",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "안녕하세요 차카봇이에오"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#안녕",
+      "dialog_node": "node_3_1588672365492",
+      "previous_sibling": "node_4_1588672505173"
+    },
+    {
+      "type": "standard",
+      "title": "착한가격업소?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "'착한가격업소'는 행정자치부와 지방자치단체가 지정한 우수 물가안정 모범업소입니다.   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "저렴한 가격으로 소비자들에게 우수한 서비스를 제공하는 업소를 행정자치부에서 착한가격업소로 지정하여 다양한 혜택을 제공합니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "더 많은 정보를 알고 싶으신가요?",
+            "options": [
+              {
+                "label": "착한가격업소 지정현황",
+                "value": {
+                  "input": {
+                    "text": "지정현황"
+                  }
+                }
+              },
+              {
+                "label": "착한가격업소 지정기준",
+                "value": {
+                  "input": {
+                    "text": "지정기준"
+                  }
+                }
+              },
+              {
+                "label": "착한가격업소 지정절차 ",
+                "value": {
+                  "input": {
+                    "text": "지정절차"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#착한가격업소",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1590569932056",
+      "previous_sibling": "node_3_1588672365492"
+    },
+    {
+      "type": "standard",
+      "title": "환영인사",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "안녕하세요 착한가격 업소 정보 제공 챗봇, 차카봇입니다. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "무엇을 도와드릴까요? 검색 or 추천을 입력해주세요.",
+            "options": [
+              {
+                "label": "착한가격업소 [검색]",
+                "value": {
+                  "input": {
+                    "text": "검색"
+                  }
+                }
+              },
+              {
+                "label": "착한가격업소 [추천]",
+                "value": {
+                  "input": {
+                    "text": "추천"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome || @취소",
+      "dialog_node": "node_5_1588579716521",
+      "previous_sibling": "node_5_1589452807975"
+    },
+    {
+      "type": "standard",
+      "title": "취소하면",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "취소하였습니다."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1588579716521"
+      },
+      "conditions": "@취소",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1589452807975"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "당신이 의도한 것은",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "해당 항목 없음"
+    },
+    "human_agent_assist": {
+      "prompt": "당신이 의도한 것은"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "착한가격 업소",
+  "language": "ko",
+  "description": ""
+}
