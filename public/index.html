@@ -1,59 +1,39 @@
 <html>
-<head>
-  <base href="/">
-  <title>Watson Assistant Chat App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta property="og:image" content="conversation.svg" />
-  <meta property="og:title" content="Conversation Chat Simple" />
-  <meta property="og:description" content="Sample application that shows how to use the Watson Assistant API to identify user intents" />
-  <link rel="shortcut icon" href="favicon.png" type="image/png">
-  <link rel="stylesheet" href="css/app.css">
-</head>
-
-<body>
-  <div id="view-change-button" class="button" onclick="PayloadPanel.togglePanel(event, this)">
-    <img class="option full" src="../img/Chat Button.png">
-    <img class="option not-full" src="../img/Code Button.png">
-  </div>
-  <div id="contentParent" class="responsive-columns-wrapper">
-    <div id="chat-column-holder" class="responsive-column content-column">
-      <div class="chat-column">
-        <div id="scrollingChat"></div>
-        <p class="user-typing" id="user-typing-field"></p>
-        <label for="textInput" class="inputOutline">
-          <input id="textInput" class="input responsive-column" placeholder="Type something" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)"
-            autofocus>
-        </label>
-        <div class="disclaimer">
-          * This system is for demonstration purposes only and is not intended to process Personal Data. No Personal
-          Data is to be entered
-          into this system as it may not have the necessary controls in place to meet the requirements of the General
-          Data Protection
-          Regulation (EU) 2016/679.
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Bootstrap Chat Box - Bootsnipp.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/locale/id.js" charset="utf-8"></script>
+    <script src="js/recorder.js" charset="utf-8"></script>
+    <script src="js/chat.js" charset="utf-8"></script>
+    <script src="js/audio.js" charset="utf-8"></script>
+   </head>
+  <body>
+    <div class="row">
+      <div class="col col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-6 col-sm-12">
+        <div class="chat-area">
+          <ul class="list-unstyled"></ul>
         </div>
-        <div class="disclaimer">
-          By using this application, you agree to the&nbsp;
-          <a target="_blank" rel="noreferrer noopener" href="https://watson-developer-cloud.github.io/terms?name=Watson%20Assistant%20Demo">
-            Terms of Use
-          </a>
+        <div class="message_write">
+          <textarea id="message" class="form-control" placeholder="type a message" onkeyup="enterMsg(event)"></textarea>
+          <div class="clearfix"></div>
+          <div class="chat_bottom">
+            <input type="checkbox" id="quickMsg" checked="checked"> Enter to Send Message
+            <div class="pull-right">
+              <button id="mic_btn" class="btn btn-success fa fa-lg fa-microphone" onclick="toggleRecording(this);"></button>
+              <button id="send_btn" class="btn btn-success fa fa-lg fa-paper-plane" onclick="sendMessage()"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="payload-column" class="fixed-column content-column">
-      <div id="payload-initial-message">
-        Type something to see the output
-      </div>
-      <div id="payload-request" class="payload"></div>
-      <div id="payload-response" class="payload"></div>
-    </div>
-  </div>
-
-  <script src="js/common.js"></script>
-  <script src="js/api.js"></script>
-  <script src="js/conversation.js"></script>
-  <script src="js/payload.js"></script>
-  <script src="js/global.js"></script>
-  <script type="text/javascript" src="https://cdn.rawgit.com/watson-developer-cloud/watson-developer-cloud.github.io/master/analytics.js"></script>
-</body>
+  </body>
 </html>
