@@ -20,9 +20,13 @@
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "csv-parse": "^4.10.1",
     "dotenv": "^6.2.0",
     "express": "^4.17.1",
-    "ibm-watson": "^5.1.0"
+    "ibm-watson": "^5.5.0",
+    "prompt-sync": "^4.2.0",
+    "stream-transform": "^2.0.2",
+    "watson-developer-cloud": "^4.0.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
