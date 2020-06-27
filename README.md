@@ -8,24 +8,24 @@
 
 ## Watson Assistant 구성
 
-1. <h3 align="left">다음 사진과 같이 Intent, Entity, Dialog를 구성하여 챗봇을 학습시켰다.</h3>
+<h3 align="left">1. 다음 사진과 같이 Intent, Entity, Dialog를 구성하여 챗봇을 학습시켰다.</h3>
 ![Copy](readme_images/intent.png)
 ![Copy](readme_images/entity.png)
 ![Copy](readme_images/dialog.png)
 
-2. <h3 align="left">Web Hook을 설정하여 CSV파일에서 가게의 정보를 찾아오도록 설계하였다.</h3>
+<h3 align="left">2. Web Hook을 설정하여 CSV파일에서 가게의 정보를 찾아오도록 설계하였다.</h3>
 ![Copy](readme_images/stt_understand_eng.png)
 
-3. <h3 align="left">Facebook Messenger과 연동하여 접근성을 향상시켰다.</h3>
+<h3 align="left">3. Facebook Messenger과 연동하여 접근성을 향상시켰다.</h3>
 ![Copy](readme_images/fb.png)
 
 ## 음성인식 구현과 한계
 
-1. <h3 align="left">Watson의 Developer Tool을 이용해 Watson local Git hub에서 Speech to Text, Text to Speech 작업 코드 작성</h3>
+<h3 align="left">1. Watson의 Developer Tool을 이용해 Watson local Git hub에서 Speech to Text, Text to Speech 작업 코드 작성</h3>
 ![Copy](readme_images/stt_1.png)
 ![Copy](readme_images/stt_2.png)
-2. <h3 align="left">Watson Developer 과 Assistant를 연결하여 Local app에서 동작 실행</h3>
+<h3 align="left">2. Watson Developer 과 Assistant를 연결하여 Local app에서 동작 실행</h3>
 ![Copy](readme_images/stt_flow.png)
-3. <h3 align="left">한글 인식률의 부재, json 파일 구조 문제로 인한 음성인식 기술 구현 실패(영어로는 동작하지만, 한글로 동작하지 않음)</h3>
+<h3 align="left">3. 한글 인식률의 부재, json 파일 구조 문제로 인한 음성인식 기술 구현 실패(영어로는 동작하지만, 한글로 동작하지 않음)</h3>
 ![Copy](readme_images/stt_understand_eng.png)
 ![Copy](readme_images/stt_understand.png)
