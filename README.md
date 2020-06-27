@@ -3,8 +3,11 @@
 
 ![Copy](readme_images/demo_screenshot.png)
 
-<h3 align="center">로컬호스트 3000으로 실행했을때, 하남시의 중식을 알려주는 데모 스크린샷입니다.
-"하남시 중식 알려줘"라는 해당 text 의 intent 는 "가게 추천"이 0.909%확률로 들어가고, 세부위치entity에 하남시가, 업종에 중식이 들어가서 그에 맞는 답변을 출력하는 형식으로 진행됩니다.</h3>
+- <h3 align="center">로컬호스트 3000으로 실행했을때, 하남시의 중식을 알려주는 데모 스크린샷.</h3>
+- <h3 align="center">"하남시 중식 알려줘"라는 해당 text 의 intent 는 "가게 추천"이 0.909%확률로 들어가고, 세부위치entity에 하남시가, 업종에 중식이 들어가서 그에 맞는 답변을 출력하는 형식으로 진행된다.</h3>
+- <h3 align="center">코드 작성 부분 : 1) watson_webhook_code - webhook코드 작성(csv파일에서 조건에 맞게 가게의 정보를 가져오는 코드)
+2) watson-voice-bot-20200627061848209-master - stt,tts기능을 구현한 코드 
+3) 1),2)를 제외한 대부분의 코드 ex)app.js</h3>
 
 ## Watson Assistant 구성
 
@@ -15,6 +18,8 @@
 ![Copy](readme_images/dialog.png)
 
 <h3 align="left">2. Web Hook을 설정하여 CSV파일에서 가게의 정보를 찾아오도록 설계하였다.</h3>
+<h3 align="left">2-1) 코드 작성 부분 : watson_webhook_code </h3>
+
 
 ![Copy](readme_images/webhook.png)
 
@@ -24,7 +29,10 @@
 
 ## 음성인식 구현과 한계
 
+<h3 align="left">watson-voice-bot-20200627061848209-master 압축파일</h3>
+
 <h3 align="left">1. Watson의 Developer Tool을 이용해 Watson local Git hub에서 Speech to Text, Text to Speech 작업 코드 작성</h3>
+watson-voice-bot-20200627061848209-master
 
 ![Copy](readme_images/stt_1.png)
 ![Copy](readme_images/stt_2.png)
