@@ -14,7 +14,7 @@
 ![Copy](readme_images/dialog.png)
 
 <h3 align="left">2. Web Hook을 설정하여 CSV파일에서 가게의 정보를 찾아오도록 설계하였다.</h3>
-![Copy](readme_images/stt_understand_eng.png)
+![Copy](readme_images/webhook.png)
 
 <h3 align="left">3. Facebook Messenger과 연동하여 접근성을 향상시켰다.</h3>
 ![Copy](readme_images/fb.png)
@@ -29,3 +29,5 @@
 <h3 align="left">3. 한글 인식률의 부재, json 파일 구조 문제로 인한 음성인식 기술 구현 실패(영어로는 동작하지만, 한글로 동작하지 않음)</h3>
 ![Copy](readme_images/stt_understand_eng.png)
 ![Copy](readme_images/stt_understand.png)
+<h3 align="left">4. 따라서 휴대폰의 음성인식 기술을 활용하여 페이스북 메신저를 통해 구현하였다.</h3>
+![Copy](readme_images/phone.png)
