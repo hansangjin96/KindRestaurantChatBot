@@ -1,5 +1,5 @@
-<h1 align="center" style="border-bottom: none;">🚀 Watson Assistant (formerly Conversation) Sample Application</h1>
-<h3 align="center">This Node.js app demonstrates the Watson Assistant service in a simple interface engaging in a series of simple simulated banking tasks.</h3>
+<h1 align="center" style="border-bottom: none;">🚀 <동국대학교 아싸리 팀> 인공지능을 이용한 챗봇구축</h1>
+<h3 align="center">Watson Assistant를 이용하여, 착한 가격 업소를 추천하는 챗봇을 구축하였다.</h3>
 <p align="center">
   <a href="http://travis-ci.org/watson-developer-cloud/assistant-simple">
     <img alt="Travis" src="https://travis-ci.org/watson-developer-cloud/assistant-simple.svg?branch=master">
@@ -10,26 +10,22 @@
 </p>
 </p>
 
-![Demo](readme_images/demo.gif)
+(readme_images/demo_screenshot.png)
 
-You can view a [demo][demo_url] of this app.
+로컬호스트 3000으로 실행했을때, 하남시의 중식을 알려주는 데모 스크린샷입니다.
+"하남시 중식 알려줘"라는 해당 text 의 intent 는 "가게 추천"이 0.909%확률로 들어가고, 세부위치entity에 하남시가, 업종에 중식이 들어가서 그에 맞는 답변을 출력하는 형식으로 진행됩니다.
 
-Please note this app uses the [Watson Assistant V2 API](https://cloud.ibm.com/apidocs/assistant-v2#introduction). To access a version of the V1 app, you can go to [v1.4.1](https://github.com/watson-developer-cloud/assistant-simple/releases/tag/v1.4.1).
+## 음성인식 구현과 한계
 
-If you need more information about the V1 API, you can go to the [Watson Assistant V1 API page](https://cloud.ibm.com/apidocs/assistant#introduction).
+1. Watson의 Developer Tool을 이용해 Watson local Git hub에서 Speech to Text, Text to Speech 작업 코드 작성
+(readme_images/stt_1.png)
+(readme_images/stt_2.png)
+1. Watson Developer 과 Assistant를 연결하여 Local app에서 동작 실행
+(readme_images/stt_flow.png)
+1. 한글 인식률의 부재, json 파일 구조 문제로 인한 음성인식 기술 구현 실패(영어로는 동작하지만, 한글로 동작하지 않음)
+(readme_images/stt_understand_eng.png)
+(readme_images/stt_understand.png)
 
-
-## Prerequisites
-
-1. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration/).
-1. Download the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/index.html#overview).
-1. Create an instance of the Watson Assistant service and get your credentials:
-    - Go to the [Watson Assistant](https://cloud.ibm.com/catalog/services/conversation) page in the IBM Cloud Catalog.
-    - Log in to your IBM Cloud account.
-    - Click **Create**.
-    - Click **Show** to view the service credentials.
-    - Copy the `apikey` value, or copy the `username` and `password` values if your service instance doesn't provide an `apikey`.
-    - Copy the `url` value.
 
 ## Configuring the application
 
@@ -45,7 +41,7 @@ If you need more information about the V1 API, you can go to the [Watson Assista
 
 5. Click the ![Copy](readme_images/copy_icon.png) icon to copy the workspace ID to the clipboard.
 
-    ![Steps to get credentials](readme_images/assistant-simple.gif)
+    ![Steps to get credentials](readme_images/demo_screenshot.gif)
 
 6. In the application folder, copy the *.env.example* file and create a file called *.env*
 
